@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: lightgray;
+}
