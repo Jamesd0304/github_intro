@@ -7,3 +7,42 @@ h1 {
   text-align: center;
   background-color: lightgray;
 }
+div {
+  border: solid darkblue 1px;
+  border-radius: 4px;
+  width: 96%;
+  margin: 1em auto;
+}
+p {
+  padding: 0.5em;
+}
+form {
+  border: solid darkblue 1px;
+  border-radius: 4px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* height: 100px; */
+  padding: 1em;
+}
+form div {
+  padding: 0.5em 0;
+  border: solid darkblue 1px;
+}
+input[type="Submit"], input[type="reset"] {
+  background: #000000;
+  color: white;
+  font-size: 18px;
+  border: solid darkblue 1px;
+  border-radius: 4px;
+  padding: 0.25em 1em;
+  cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+color: #000000;
+background: #ffffff;
+}
+textarea {
+  width: 100%;
+  padding: 0.25em 0;
+  height: 20em;
+}
