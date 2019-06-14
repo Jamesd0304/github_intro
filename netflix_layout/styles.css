@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  background-color: #141414;
+}
+.nav-wrap {
+  /* height: 50px; */
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+}
+.topics-wrap {
+  display: flex;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  list-style-type: none;
+}
+.topics {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+
+}
